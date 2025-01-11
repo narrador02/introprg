@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resum de resultats</title>
+    <style>
+      div.title-container { display: flex; align-items: center; }
+      h1 { margin-left: 10px; }
+      img { height: 5em; vertical-align: middle; }
+
+      tr.exercise:hover { background-color: #f5f5f5; }
+      th, td { font-weight: normal; padding: 5px 2px; }
+      th { background-color: #1d96b2; color: white; }
+      td { border-bottom: 1px solid #ddd; }
+      tr.header th:first-child { border-top-left-radius: 5px; }
+      tr.header th:last-child { border-top-right-radius: 5px; }
+
+      .questionable { cursor: help; }
+      span.help { cursor: help; }
+      td.attributes { text-align: center; white-space: nowrap; font-size: .6em;}
+      td.result     { text-align: center; padding: .5em; }
+      span.activeattrib { color: blue; font-weight:bolder; text-shadow: 1px 1px 2px #000000; cursor: help;}
+      span.innactiveattrib { color: lightgrey; font-weight: lighter; cursor: help;}
+      a.discrete:link, a.discrete:visited { color: black; text-decoration: none; }
+
+      span.tooltip {
+          background-color: #fffffa;
+          padding: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          position: absolute;
+          z-index: 1;
+      }
+      span.clickable { cursor: pointer; }
+      #entry1 { position: relative; }
+      td.overdue { color: grey; font-style: italic; }
+      div.important {
+          background-color: yellow;
+          border: 2px solid grey; /* You can adjust the border color as desired */
+          box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties for desired effect */
+          padding: 10px; /* Adjust padding as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-container">
+        <a class="discrete" href="https://gatrenat.github.io/introprgdev/">
+            <img src="https://gatrenat.github.io/introprg//_static/logoprg.png" alt="logo" title="obre els apunts">
+        </a>
+        <h1>Resultats de la correcció automàtica</h1>
+    </div>
+    <p>Hola Jairo</p><p>Aquest és un resum dels resultats de la correcció automàtica dels exercicis del teu repositori: <tt>git@github.com:narrador02/introprg.git</b>.</tt><table>
+        <tr class="header">
+          <th colspan=2>Exercici</th>
+          <th class="questionable" title="Data límit del lliurament">data límit</th>
+          <th colspan=2>Resultat</th>
+        </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_00_01_similaritats_i_diferencies.html">00_01_similaritats_i_diferencies</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_00_02_holagit.html">00_02_holagit</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_00_03_resum_comandes.html">00_03_resum_comandes</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_00_04_holamon.html">00_04_holamon</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_00_05_presentemnos.html">00_05_presentemnos</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_01_comprensio.html">10_01_comprensio</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_02_duplica.html">10_02_duplica</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_03_inicialitzacio_en_linia.html">10_03_inicialitzacio_en_linia</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_04_reduccio_de_prints.html">10_04_reduccio_de_prints</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_05_nomcognom.html">10_05_nomcognom</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_06_calculaarea.html">10_06_calculaarea</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_07_nom_variables.html">10_07_nom_variables</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_08_valors_del_tipus_adequat.html">10_08_valors_del_tipus_adequat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_09_calculadora_basica.html">10_09_calculadora_basica</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_10_operadors_relacionals.html">10_10_operadors_relacionals</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_11_expressions_amb_operadors_logics.html">10_11_expressions_amb_operadors_logics</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_12_precedencia_operadors.html">10_12_precedencia_operadors</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_13_taules_veritat.html">10_13_taules_veritat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_10_14_simplificacions_expressions.html">10_14_simplificacions_expressions</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_01_preso.html">11_01_preso</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_02_dosenordre.html">11_02_dosenordre</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_03_parellsenar.html">11_03_parellsenar</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_04_ternari.html">11_04_ternari</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_05_indentacio.html">11_05_indentacio</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_06_autocaravana.html">11_06_autocaravana</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_07_diessetmana.html">11_07_diessetmana</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_08_diessetmana_switch.html">11_08_diessetmana_switch</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_09_diessetmana_switch_expr.html">11_09_diessetmana_switch_expr</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_10_mesosanys.html">11_10_mesosanys</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_11_tresenordre.html">11_11_tresenordre</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_12_calculadora_senzilla.html">11_12_calculadora_senzilla</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_13_pagaments.html">11_13_pagaments</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_14_semafor.html">11_14_semafor</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_15_nombre_de_fills.html">11_15_nombre_de_fills</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_16_ascensor.html">11_16_ascensor</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_11_17_metge_virtual.html">11_17_metge_virtual</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_01_sumatres.html">12_01_sumatres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_02_sumamaxtres.html">12_02_sumamaxtres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_03_sumanotes.html">12_03_sumanotes</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_04_quantsparells.html">12_04_quantsparells</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_05_lloro.html">12_05_lloro</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_06_trobamaxim.html">12_06_trobamaxim</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_07_mitjana.html">12_07_mitjana</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_08_estadistiques.html">12_08_estadistiques</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_09_dowhile.html">12_09_dowhile</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_10_endevina.html">12_10_endevina</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_11_endevina_cancel.html">12_11_endevina_cancel</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_12_12_trobaproxim.html">12_12_trobaproxim</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_01_while_naturals.html">13_01_while_naturals</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_02_while_naturalsdec.html">13_02_while_naturalsdec</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_03_while_naturalspar.html">13_03_while_naturalspar</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_04_while_naturalsentre.html">13_04_while_naturalsentre</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_05_for_naturals.html">13_05_for_naturals</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_06_for_naturalsdec.html">13_06_for_naturalsdec</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_07_for_naturalspar.html">13_07_for_naturalspar</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_08_for_naturalsentre.html">13_08_for_naturalsentre</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_09_sumainterval.html">13_09_sumainterval</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_10_mostrainterval.html">13_10_mostrainterval</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_11_edats.html">13_11_edats</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_12_quadrat.html">13_12_quadrat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_13_triangle.html">13_13_triangle</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_14_triangleinvertit.html">13_14_triangleinvertit</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_15_triangles.html">13_15_triangles</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_16_rombos.html">13_16_rombos</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_17_trilal.html">13_17_trilal</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_18_repte.html">13_18_repte</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_19_taula_multiplicar.html">13_19_taula_multiplicar</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_13_20_amida.html">13_20_amida</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_01_tipus_primitius.html">14_01_tipus_primitius</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_02_informestring.html">14_02_informestring</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_03_informecaracter.html">14_03_informecaracter</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_04_manipulant_strings.html">14_04_manipulant_strings</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_05_vocalmin.html">14_05_vocalmin</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_06_vocalinifi.html">14_06_vocalinifi</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_07_lletrafi.html">14_07_lletrafi</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_08_extremspermutats.html">14_08_extremspermutats</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_09_matricula_italiana.html">14_09_matricula_italiana</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_10_matricula_valida_ampliada.html">14_10_matricula_valida_ampliada</a></td>
+            <td class="attributes">
+              <span class="activeattrib" title="Exercici optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_11_analisi_caracter.html">14_11_analisi_caracter</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_12_parentitza.html">14_12_parentitza</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_13_nomeslletres.html">14_13_nomeslletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_14_distribuidor.html">14_14_distribuidor</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_15_mostrainterval.html">14_15_mostrainterval</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_16_cadena.html">14_16_cadena</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_17_enterestricte.html">14_17_enterestricte</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_18_enterflexible.html">14_18_enterflexible</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_19_contedarrer.html">14_19_contedarrer</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_14_20_endevinacontrolat.html">14_20_endevinacontrolat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2024-12-08T23:59:59.999999+01:00">dg 8 de decembre</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_01_vocalsmajuscules.html">15_01_vocalsmajuscules</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_02_comptavocals.html">15_02_comptavocals</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_03_informetext.html">15_03_informetext</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_04_majusculitza.html">15_04_majusculitza</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_05_texttransformat.html">15_05_texttransformat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_06_textreves.html">15_06_textreves</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_07_textcapicua.html">15_07_textcapicua</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_08_codifica.html">15_08_codifica</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_09_trianglelletres.html">15_09_trianglelletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_10_invertitlletres.html">15_10_invertitlletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_11_piramide.html">15_11_piramide</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_12_duhast.html">15_12_duhast</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_13_capicuarevisada.html">15_13_capicuarevisada</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_14_paraulesreves.html">15_14_paraulesreves</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_15_lletresreves.html">15_15_lletresreves</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_15_16_password.html">15_16_password</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_01_quadrats.html">16_01_quadrats</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_02_quadrats_modul.html">16_02_quadrats_modul</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_03_quadrats_modulars.html">16_03_quadrats_modulars</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_04_lloro_quadrat.html">16_04_lloro_quadrat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_05_quadrat_parametritzat.html">16_05_quadrat_parametritzat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_06_quadrat_reparametritzat.html">16_06_quadrat_reparametritzat</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_07_analisi_caracter.html">16_07_analisi_caracter</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_08_mostrainterval.html">16_08_mostrainterval</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_09_cadena.html">16_09_cadena</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_10_trianglelletres.html">16_10_trianglelletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_11_invertitlletres.html">16_11_invertitlletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_12_parentitza.html">16_12_parentitza</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_13_nomeslletres.html">16_13_nomeslletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_14_vocalsmajuscules.html">16_14_vocalsmajuscules</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_15_inicials_majuscules.html">16_15_inicials_majuscules</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_16_textreves.html">16_16_textreves</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_16_17_codifica.html">16_17_codifica</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-07T23:59:59.999999+01:00">dm 7 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_01_compara_ocurrencies.html">17_01_compara_ocurrencies</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_02_compta_vocals.html">17_02_compta_vocals</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_03_tipus_moduls.html">17_03_tipus_moduls</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_04_matricula_italiana.html">17_04_matricula_italiana</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_05_utilitats_confirmacio.html">17_05_utilitats_confirmacio</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_06_es_vocal.html">17_06_es_vocal</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_07_nomes_lletres.html">17_07_nomes_lletres</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2025-01-14T23:59:59.999999+01:00">dm 14 de gener</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_08_variables.html">17_08_variables</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_09_mostra_interval_string.html">17_09_mostra_interval_string</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_10_es_enter.html">17_10_es_enter</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_11_es_enter_flexible.html">17_11_es_enter_flexible</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_12_cadena_continua.html">17_12_cadena_continua</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_13_substring.html">17_13_substring</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_14_prefixsufix.html">17_14_prefixsufix</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_15_quants.html">17_15_quants</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_17_16_progressio.html">17_16_progressio</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="activeattrib" title="Exercici amb complexitat addicional">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td>&nbsp;</td>
+            <td class="result">
+               <span class='help' title="NP">✖</span>
+            </td>
+            <td>
+              <span>No lliurat</span>
+                          </td>
+          </tr>
+              </table><p>Darrer commit avaluat #N/A amb data N/A</p><script>
+      // connect results to tooltip
+      document.querySelectorAll('tr.exercise').forEach(function (tr) {
+          const button = tr.querySelector('span.clickable');
+          if (button != null) {
+              button.textContent = "…";
+              button.title = "Click per mostrar detalls";
+              const tooltip = tr.querySelector('span.tooltip');
+              tooltip.style.display = "none";
+              button.addEventListener("click", function () {
+                  if (tooltip.style.display == "inline") {
+                      hideTooltip(tr);
+                  } else {
+                      document.querySelectorAll('span.tooltip:not(hidden)').forEach(function (span) {
+                          hideTooltip(span.parentNode.parentNode);
+                      });
+                      showTooltip(tr);
+                  }
+              })
+          }
+      });
+      // mark due entries as overdue
+      document.querySelectorAll('td[duedate]').forEach(td => {
+          const dueDate = new Date(td.getAttribute('duedate'));
+          const currentDate = new Date();
+          if (dueDate < currentDate) {
+              td.classList.add('overdue');
+              td.classList.add('questionable');
+              td.title = "Superada la data límit de l'exercici";
+          }
+      });
+      function hideTooltip(tr) {
+          const button = tr.querySelector('span.clickable');
+          button.textContent = "…";
+          button.title = "Click per mostrar detalls";
+          const tooltip = tr.querySelector('span.tooltip');
+          tooltip.style.display = "none";
+      }
+      function showTooltip(tr) {
+          const button = tr.querySelector('span.clickable');
+          button.title = "Click per ocultar detalls";
+          button.textContent = "→";
+          const tooltip = tr.querySelector('span.tooltip');
+          tooltip.style.display = "inline";
+      }
+    </script>
+  </body>
+</html>
