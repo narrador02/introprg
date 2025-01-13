@@ -1,0 +1,62 @@
+externalLinked:
+Quin tipus de dades guardarà? - Enum
+És un paràmetre? - No
+És una constant? - No
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - TMXEntry.ExternalLinked línea 361
+Indica un mòdul pel que aquesta variable sigui local - No hay
+Indica un mòdul pel que aquesta variable sigui inaccessible 
+
+id:
+Quin tipus de dades guardarà? - String
+És un paràmetre? - No
+És una constant? - No
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - No hay
+Indica un mòdul pel que aquesta variable sigui local - onEntry línea 288
+Indica un mòdul pel que aquesta variable sigui inaccessible
+
+levelTwo:
+Quin tipus de dades guardarà? - Boolean
+És un paràmetre? - Sí
+És una constant? - Sí
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - No hay
+Indica un mòdul pel que aquesta variable sigui local - exportTMX línea 161
+Indica un mòdul pel que aquesta variable sigui inaccessible
+
+PROP_FILE:
+Quin tipus de dades guardarà? - String
+És un paràmetre? - No
+És una constant? - Sí
+Respecta la convenció camelCase? - No, la SNAKE_CASE
+Indica un mòdul pel que aquesta variable sigui global - ProjectTMX línea 86
+Indica un mòdul pel que aquesta variable sigui local - No hay
+Indica un mòdul pel que aquesta variable sigui inaccessible
+
+segmentSource:
+Quin tipus de dades guardarà? - String
+És un paràmetre? - No
+És una constant? - No
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - No hay
+Indica un mòdul pel que aquesta variable sigui local - onEntry línea 288
+Indica un mòdul pel que aquesta variable sigui inaccessible
+
+sourceLang:
+Quin tipus de dades guardarà? - Language
+És un paràmetre? - No
+És una constant? - Sí
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - onEntry línea 288
+Indica un mòdul pel que aquesta variable sigui local - No hay
+Indica un mòdul pel que aquesta variable sigui inaccessible
+
+translationUpdatedByUser:
+Quin tipus de dades guardarà? - Boolean
+És un paràmetre? - Sí
+És una constant? - No
+Respecta la convenció camelCase? - Sí
+Indica un mòdul pel que aquesta variable sigui global - No hay
+Indica un mòdul pel que aquesta variable sigui local - save línea 127
+Indica un mòdul pel que aquesta variable sigui inaccessible
