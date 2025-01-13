@@ -12,17 +12,17 @@ public class UtilitatsConfirmacio {
                 respuesta = respuesta + resposta.charAt(i);
             }
         }
-        if (null == resposta) {
+        if (null == respuesta) {
             return false;
         }
-        resposta = resposta.toLowerCase();
-        if (resposta.equals("s") || resposta.equals("y")) {
+        respuesta = respuesta.toLowerCase();
+        if (respuesta.equals("s") || respuesta.equals("y")) {
             return true;
         }
-        if (resposta.equals("sí") || resposta.equals("yes")) {
+        if (respuesta.equals("sí") || respuesta.equals("yes")) {
             return true;
         }
-        if (resposta.equals("si") || resposta.equals("vale") || resposta.equals("yeah")) {
+        if (respuesta.equals("si") || respuesta.equals("vale") || respuesta.equals("yeah")) {
             return true;
         }
         return false;
