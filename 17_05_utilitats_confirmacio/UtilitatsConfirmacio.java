@@ -6,6 +6,12 @@
 public class UtilitatsConfirmacio {
     
     public static boolean respostaABoolean(String resposta) {
+        String respuesta = "";
+        for (int i=0;i<resposta.length();i++) {
+            if (!Character.isWhitespace(resposta.charAt(i))) {
+                respuesta = respuesta + resposta.charAt(i);
+            }
+        }
         if (null == resposta) {
             return false;
         }
