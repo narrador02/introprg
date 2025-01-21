@@ -5,7 +5,7 @@ public class Main {
         String principal = Entrada.readLine();
         System.out.println("Subtext?");
         String subtext = Entrada.readLine();
-        System.out.println("Extricte?");
+        System.out.println("Estricte?");
         boolean extricte = UtilitatsConfirmacio.respostaABoolean(Entrada.readLine());
         System.out.printf("esSubstring(\"%s\", \"%s\", %b) -> %b%n",
                 principal, subtext, extricte,
