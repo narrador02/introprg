@@ -1,4 +1,6 @@
-/* Nueva versión del programa 31_75 con estructura modular. Hace uso del fichero UtilString.java en dos ocasiones */
+/*
+ * Nueva versión del programa 31_75 con estructura modular. Hace uso del fichero UtilString.java en dos ocasiones 
+ */
 public class CadenaContinua {
     public static void main(String[] args) {
         System.out.println("Text?");
