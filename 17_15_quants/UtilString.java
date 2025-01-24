@@ -1,4 +1,6 @@
-/* Fichero con distintas funcionalidades */
+/* 
+ * Fichero con distintas funcionalidades 
+ */
 public class UtilString {
 	public static int quants(String principal, String subtext, boolean extricte) {
 		int confirmacio = 0;

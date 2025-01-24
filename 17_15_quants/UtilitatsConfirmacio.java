@@ -1,4 +1,6 @@
-/* Funcion que comprueba una respuesta y retorna true o false */
+/* 
+ * Funcion que comprueba una respuesta y retorna true o false 
+ */
 public class UtilitatsConfirmacio {
 	public static boolean respostaABoolean(String resposta) {
 		if (null == resposta) {
