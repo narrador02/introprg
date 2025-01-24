@@ -1,4 +1,6 @@
-/* Nueva versión del programa 31_71, en este caso el resultado aparece en la misma línea. Se hace uso del fichero UtilString y esta vez el código es con estructura modular */
+/* 
+ * Nueva versión del programa 31_71, en este caso el resultado aparece en la misma línea. Se hace uso del fichero UtilString y esta vez el código es con estructura modular 
+ */
 public class MostraInterval {
     public static void main(String[] args) {
         System.out.println("text?");

@@ -1,4 +1,6 @@
-/* Programa que repite cualquier texto que comience o acabe en vocal */
+/* 
+ * Programa que repite cualquier texto que comience o acabe en vocal 
+ */
 public class LloroVocalIniciFi {
     public static void main (String[] args) {
 		boolean finalizar = false;
