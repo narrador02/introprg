@@ -1,4 +1,6 @@
-/* Fichero con multiples utilidades*/
+/* 
+ * Fichero con multiples utilidades
+ */
 public class UtilString {
 	public static boolean esVocal (char ch) {
 		char verificacio = Character.toLowerCase(ch);
