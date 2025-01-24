@@ -1,4 +1,6 @@
-/* Fichero con distintas funcionalidades */
+/* 
+ * Fichero con distintas funcionalidades 
+ */
 public class UtilString {
     public static boolean esPrefix(String text, String prefix, boolean extricte) {
         boolean confirmacio = false;
