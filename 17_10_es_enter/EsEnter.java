@@ -1,4 +1,6 @@
-/* Programa de misma funcionalidad que el 31_76 pero con estructura modular y haciendo uso del fichero UtilString.java */
+/*
+ * Programa de misma funcionalidad que el 31_76 pero con estructura modular y haciendo uso del fichero UtilString.java 
+ */
 public class EsEnter {
     public static void main(String[] args) {
         System.out.println("Introdueix texts (enter sol per finalitzar)");
