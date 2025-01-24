@@ -1,4 +1,6 @@
-/* Aquest programa comprova el funcionament de la funció UtilSTring.esSubstring() */
+/*
+ * Aquest programa comprova el funcionament de la funció UtilSTring.esSubstring()
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("Text principal?");
