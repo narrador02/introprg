@@ -20,7 +20,7 @@ public class Ascensor {
         for (int i = 0; i < args.length; i++) {
             for (int j = 0; j < args[i].length(); j++) {
                 if (Character.isLetter(args[i].charAt(j))) {
-                    System.out.println ("Cap ascensor");
+                    System.out.println ("Cal indicar un únic valor enter.");
                     return;
                 }
             }
