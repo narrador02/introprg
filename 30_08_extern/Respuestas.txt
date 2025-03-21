@@ -1,0 +1,32 @@
+Anotaciones sobre acceso externo
+Autor/a: Jairo Vigil
+Fecha: 21/03/2025
+
+Pregunta 1. On està el ``main()``
+El punto de entrada main() de este programa se encuentra en los archivos GatRenat.java y UsaGatRenat.java.
+
+Pregunta 2. Distingint dos ``main()``
+Ahora tenemos dos archivos con main(). Java puede saber cuál queremos ejecutar gracias al argumento que le pasamos al ejecutarlo.
+Cuando ejecutamos un programa, especificamos el nombre de la clase que contiene el método main() que queremos ejecutar.
+
+Pregunta 3. Definició de la classe
+La clase del gato Renat está definida en el archivo GatRenat.java.
+
+Pregunta 4. Quants programes
+El número de programas que se podrían construir usando la definición de GatRenat es infinito.
+Pienso esto porque su uso no tiene limitación y cualquier programa podría utilizarlo.
+Así, podemos emplear la clase GatRenat en cualquier programa donde necesitemos un objeto que represente un gato con un número específico de vidas.
+
+Pregunta 5. Eliminant ``main()``
+Cuando elimino el main() de GatRenat (por ejemplo, comentándolo), al intentar compilar o ejecutar UsaGatRenat, el mensaje muestra que al gato Renat le quedan 0 vidas.
+
+Lo que sí ha dejado de funcionar es la ejecución independiente de la clase GatRenat.
+Ahora no puedo ejecutar GatRenat como un programa independiente porque no tiene un método main().
+Sin embargo, aún puedo crear instancias de GatRenat y usarlas en otras clases que tengan un método main().
+
+Pregunta 6. Diferents directoris
+Después de mover el archivo UsaGatRenat.java a una carpeta diferente de donde se encuentra GatRenat.java, no puedo compilar ni ejecutar UsaGatRenat.
+
+Esto se debe a que Java utiliza el sistema de archivos para localizar las clases.
+Si UsaGatRenat y GatRenat no están en el mismo directorio, o si el directorio que contiene GatRenat no está en el classpath, el intérprete de Java no podrá encontrar la clase GatRenat al intentar compilar o ejecutar UsaGatRenat.
+Esto resultará en un error de compilación o ejecución.
