@@ -28,7 +28,7 @@ public class Ascensor {
                 return;
             }
             if (Integer.parseInt(args[0]) == 0) {
-                System.out.println ("Cap ascensor");
+                System.out.println ("Cal indicar un únic valor enter.");
                 return;
             }
         }
