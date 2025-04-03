@@ -1,3 +1,7 @@
+/*
+ * Este programa contiene la clase Gat
+ * que será heredada por Renat y Garfield
+ */
 public class Gat {
     private final String nom;
     private int vides = 7;
