@@ -16,6 +16,7 @@ public class Garfield extends Gat {
     @Override
     public String estirat() {
         if (getPosicio().equals("estirat")) return "passo de fer res";
+        setPosicio("estirat");
         return "Bai Maitea, bai";
     }
 }
