@@ -1,3 +1,9 @@
+/*
+ * Este programa contiene la clase Hora
+ * que declara horas minutos y segundos
+ * y ofrece funcionalidades de incrementar
+ * y decrementar la hora
+ */
 public class Hora {
     private int hores;
     private int minuts;
