@@ -19,7 +19,12 @@ public class Gat {
         this(nom);
         setVides(vides);
     }
-
+    
+    public Gat(String nom, String posicio) {
+        this(nom);
+        setPosicio(posicio);
+    }
+    
     public Gat(String nom, int vides, String posicio) {
         this(nom, vides);
         setPosicio(posicio);
