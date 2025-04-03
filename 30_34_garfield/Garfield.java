@@ -13,4 +13,9 @@ public class Garfield extends Gat {
             super.setVides(vides);
         }
     }
+    @Override
+    public String estirat() {
+        if (getPosicio().equals("estirat")) return "Bai Maitea, bai";
+        return "passo de fer res";
+    }
 }
