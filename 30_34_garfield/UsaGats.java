@@ -2,7 +2,7 @@
  * Este programa lo usaremos para probar
  * el polimorfismo de las clases Gat, GatRenat y Garfield
  */
-public class UsaGat {
+public class UsaGats {
     public static void main(String[] args) {
         Gat[] gats = new Gat[] {
             new Gat("Misifú"),
