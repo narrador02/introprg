@@ -13,10 +13,31 @@ public class Garfield extends Gat {
             super.setVides(vides);
         }
     }
+
     @Override
     public String estirat() {
-        if (getPosicio().equals("estirat")) return "passo de fer res";
-        setPosicio("estirat");
-        return "ja m'estiro";
+        if ("assegut".equals(getPosicio())) {
+            setPosicio("estirat");
+            return "Bai Maitea, bai";
+        }
+        return "passo de fer res";
+    }
+
+    @Override
+    public String aixecat() {
+        if ("assegut".equals(getPosicio())) {
+            setPosicio("dret");
+            return "ja m'aixeco";
+        }
+        return "passo de fer res";
+    }
+
+    @Override
+    public String seu() {
+        if (!"assegut".equals(getPosicio())) {
+            setPosicio("assegut");
+            return "ja m'assec";
+        }
+        return "passo de fer res";
     }
 }
