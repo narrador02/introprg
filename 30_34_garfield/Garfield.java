@@ -4,7 +4,7 @@
  */
 public class Garfield extends Gat {
     public Garfield() {
-        super("Garfield", 9, "assegut");
+        super("Garfield", 9, "estirat");
     }
 
     @Override
