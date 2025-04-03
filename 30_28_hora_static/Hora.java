@@ -1,3 +1,9 @@
+/*
+ * Este programa contiene la clase Hora
+ * que declara horas minutos y segundos
+ * y ofrece funcionalidades de incrementar
+ * y decrementar la hora
+ */
 public class Hora {
     private int hores;
     private int minuts;
@@ -51,7 +57,7 @@ public class Hora {
 
     public void incrementa(int segons) {
         int total = this.hores * 3600 + this.minuts * 60 + this.segons + segons;
-        total = ((total % 86400) + 86400) % 86400; // assegura que queda dins el dia
+        total = ((total % 86400) + 86400) % 86400; 
         this.hores = total / 3600;
         this.minuts = (total % 3600) / 60;
         this.segons = total % 60;
@@ -62,7 +68,7 @@ public class Hora {
     }
 
     public void decrementa(int segons) {
-        incrementa(-segons); // reutilitza la lògica
+        incrementa(-segons);
     }
 
     public int compareTo(Hora altra) {
