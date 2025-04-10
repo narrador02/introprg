@@ -12,7 +12,7 @@ public class GatRenat {
         this(vides, "estirat");
     }
     public GatRenat(String posicio) {
-        this(7, "estirat");
+        this(7, "posicio");
     }
     public GatRenat(int vides, String posicio) {
         setVides(vides);
