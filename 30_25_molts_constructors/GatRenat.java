@@ -18,11 +18,17 @@ public class GatRenat {
         setVides(vides);
         setPosicio(posicio);
     }
-    public void setVides(int vides) {
-        this.vides = vides;
+    public int getVides() { return vides; }
+    public void setVides(int novesVides) {
+        if (novesVides >= 0)  {
+            vides = novesVides;
+        }
     }
+    public String getPosicio() { return posicio; }
     public void setPosicio(String posicio) {
-        this.posicio = posicio;
+        if (posicio.equals("estirat") || posicio.equals("assegut") || posicio.equals("dret")) {
+            this.posicio = posicio;
+        }
     }
     public static void main(String[] args) {
         GatRenat[] renats = {
