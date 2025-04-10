@@ -24,7 +24,7 @@ public class GatRenat {
         }
     }
     @Override
-    public String toString() { return String.format("Vides: %d. Posicio: %s", vides, posicio); }
+    public String toString() { return String.format("Vides: %d. Posició: %s", vides, posicio); }
     public static void main(String[] args) {
         System.out.println(new GatRenat(7, "dret"));
     }
