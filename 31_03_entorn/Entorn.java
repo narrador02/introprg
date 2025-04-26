@@ -159,7 +159,7 @@ public class Entorn {
     
     public static void main (String[] args) {
         Entorn entorn = new Entorn();
-        System.out.println("Celler La Bona Estrella. Escrivu ajuda per veure opcions.");
+        System.out.println("Celler La Bona Estrella. Escriviu ajuda per veure opcions.");
         while (!surt) {
             System.out.print("botiga> ");
             String arg = Entrada.readLine();
