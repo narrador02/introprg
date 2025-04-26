@@ -14,7 +14,7 @@ public class Entorn {
             return null;
         }
         botiga.afegeix(vi);
-        System.out.println("Introduit:" + vi.toString());
+        System.out.println("Introduït:" + vi.toString());
         return vi;
     }
     
