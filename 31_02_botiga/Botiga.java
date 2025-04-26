@@ -3,7 +3,7 @@
  * que hay en la botiga, verificando su stock y disponibilitad
  */
 public class Botiga {
-    private static int DEFAULT_MAX_VINS = 10;
+    private static final int DEFAULT_MAX_VINS = 10;
     private Vi[] vins;
 
     public Botiga() {
