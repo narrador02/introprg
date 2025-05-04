@@ -202,16 +202,22 @@ public class Entorn {
     
     public static void main(String[] args) {
         Entorn entorn = new Entorn();
+        try {
+            entorn.carregarBotiga();
+        } catch (IOException e) {
+            System.out.println("Error carregant la botiga: " + e.getMessage());
+        }
         System.out.println("Celler La Bona Estrella. Escriviu ajuda per veure opcions.");
+        
         while (!surt) {
             System.out.print("botiga> ");
             String arg = Entrada.readLine();
             if (arg.equalsIgnoreCase("surt")) {
-                System.out.println("adéu");
                 break;
             }
             accion(arg, entorn);
         }
+        
         try {
             entorn.guardarBotiga();
         } catch (IOException e) {
