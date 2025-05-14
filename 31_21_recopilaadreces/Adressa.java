@@ -15,6 +15,10 @@ public class Adressa implements Comparable<Adressa> {
     public String getIdentificador() {
         return identificador;
     }
+    
+    public String getDomini() {
+        return domini;
+    }
 
     public static boolean esValida(String text) {
         if (text == null) return false;
