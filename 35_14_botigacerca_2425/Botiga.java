@@ -12,6 +12,10 @@ public class Botiga {
         vins.add(vi);
         return vi;
     }
+    
+    public List<Vi> getVins() {
+        return new ArrayList<>(vins);
+    }
 
     public Vi cerca(String ref) throws IllegalArgumentException {
         if (ref == null) {
