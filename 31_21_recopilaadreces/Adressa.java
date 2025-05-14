@@ -11,6 +11,10 @@ public class Adressa implements Comparable<Adressa> {
         this.identificador = identificador;
         this.domini = domini;
     }
+    
+    public String getIdentificador() {
+        return identificador;
+    }
 
     public static boolean esValida(String text) {
         if (text == null) return false;
