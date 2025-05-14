@@ -101,7 +101,23 @@ public class Vi {
     public String toString() {
         return ref + ";" + nom + ";" + preu + ";" + estoc + ";" + lloc + ";" + origen + ";" + tipus + ";" + collita;
     }
+    
+    public static Vi deArrayString(String[] dades) throws IllegalArgumentException {
+        if (dades == null || dades.length != 8) {
+            throw new IllegalArgumentException("Cal passar exactament 8 camps");
+        }
+        String ref = dades[0];
+        String nom = dades[1];
+        int preu = Integer.parseInt(dades[2]);
+        int estoc = Integer.parseInt(dades[3]);
+        String lloc = dades[4];
+        String origen = dades[5];
+        String tipus = dades[6];
+        String collita = dades[7];
 
+        return new Vi(ref, nom, preu, estoc, lloc, origen, tipus, collita);
+    }
+    
     public static String normalitzaString(String text) {
         if (text == null) return "";
         return text.trim().toLowerCase();
