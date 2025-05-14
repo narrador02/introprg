@@ -21,7 +21,7 @@ public class RecopilaAdreces {
     public static void mostraResultat(Recopilador r) {
         List<Adressa> adreces = r.getAdreces();
         if (adreces.isEmpty()) {
-            System.out.println("boh");
+            System.out.println("No s'han trobat adreces");
         } else {
             for (Adressa a : adreces) {
                 System.out.println(a);
@@ -43,9 +43,9 @@ public class RecopilaAdreces {
             br.close();
             return sb.toString();
         } catch (FileNotFoundException e) {
-            System.out.println("boh" + nomFitxer);
+            System.out.println("No s'han trobat adreces" + nomFitxer);
         } catch (IOException e) {
-            System.out.println("boh" + nomFitxer);
+            System.out.println("No s'han trobat adreces" + nomFitxer);
         }
         return null;
     }
