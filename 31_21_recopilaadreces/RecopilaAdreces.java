@@ -43,9 +43,9 @@ public class RecopilaAdreces {
             br.close();
             return sb.toString();
         } catch (FileNotFoundException e) {
-            System.out.println("No s'han trobat adreces " + nomFitxer);
+            System.out.println("No s'ha trobat el fitxer " + nomFitxer);
         } catch (IOException e) {
-            System.out.println("No s'han trobat adreces " + nomFitxer);
+            System.out.println("No s'ha trobat el fitxer " + nomFitxer);
         }
         return null;
     }
