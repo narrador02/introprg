@@ -14,4 +14,16 @@ public class UtilString {
         String t = normalitzaString(text);
         return t.startsWith(p);
     }
+    
+    public static boolean esEnter(String text) {
+        if (text.isEmpty()) {
+            return false;
+        }
+        for (int i = 0; i < text.length(); i++) {
+            if (Character.isDigit(text.charAt(i)) == false) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
