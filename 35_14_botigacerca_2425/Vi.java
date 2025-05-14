@@ -72,7 +72,27 @@ public class Vi {
     public void setEstoc(int estoc) {
         this.estoc = estoc;
     }
-
+    
+    public void setRef(String ref) {
+    this.ref = ref;
+    }
+    
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+    
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
+    
+    public void setTipus(String tipus) {
+        this.tipus = tipus;
+    }
+    
+    public void setCollita(String collita) {
+        this.collita = collita;
+    }
+    
     @Override
     public String toString() {
         return ref + ";" + nom + ";" + preu + ";" + estoc + ";" + lloc + ";" + origen + ";" + tipus + ";" + collita;
