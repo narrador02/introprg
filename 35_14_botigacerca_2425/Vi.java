@@ -93,6 +93,10 @@ public class Vi {
         this.collita = collita;
     }
     
+    public void setLloc(String lloc) {
+    this.lloc = lloc;
+    }   
+    
     @Override
     public String toString() {
         return ref + ";" + nom + ";" + preu + ";" + estoc + ";" + lloc + ";" + origen + ";" + tipus + ";" + collita;
