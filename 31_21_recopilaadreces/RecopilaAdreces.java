@@ -6,7 +6,7 @@
 import java.io.*;
 import java.util.*;
 
-public class RecopilaAdresses {
+public class RecopilaAdreces {
     public static void main(String[] args) {
         Recopilador r = new Recopilador();
         for (String nomFitxer : args) {
