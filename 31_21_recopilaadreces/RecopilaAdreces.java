@@ -15,7 +15,10 @@ public class RecopilaAdreces {
                 r.processa(nomFitxer, contingut);
             }
         }
-
+        mostraResultat(r);
+    }
+    
+    public static void mostraResultat(Recopilador r) {
         List<Adressa> adreces = r.getAdreces();
         if (adreces.isEmpty()) {
             System.out.println("boh");
