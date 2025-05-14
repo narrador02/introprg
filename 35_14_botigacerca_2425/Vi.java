@@ -130,9 +130,4 @@ public class Vi {
             collita
         };
     }
-    
-    public static String normalitzaString(String text) {
-        if (text == null) return "";
-        return text.trim().toLowerCase();
-    }
 }

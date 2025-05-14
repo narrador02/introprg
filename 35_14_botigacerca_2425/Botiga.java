@@ -16,7 +16,7 @@ public class Botiga {
         if (ref == null) {
             throw new IllegalArgumentException("La referència no pot ser null");
         }
-        String refVi = Vi.normalitzaString(ref);
+        String refVi = UtilString.normalitzaString(ref);
         for (Vi vi : vins) {
             if (vi.getRef().equalsIgnoreCase(refVi)) {
                 return vi;
