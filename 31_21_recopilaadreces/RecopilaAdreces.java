@@ -1,8 +1,8 @@
 /*
- * Programa principal que recibe archivos por argumentos.
- * Recopila y muestra direcciones de correo ordenadas.
+ * Programa principal que analiza archivos.
+ * Recopila direcciones de correo válidas y muestra resultados.
  * Informa si hay errores o si no se encuentra ninguna.
-*/
+ */
 import java.io.*;
 import java.util.*;
 
@@ -16,9 +16,9 @@ public class RecopilaAdreces {
             }
         }
 
-        List<Adressa> adreces = r.getAdrecess();
+        List<Adressa> adreces = r.getAdreces();
         if (adreces.isEmpty()) {
-            System.out.println("...no se aún");
+            System.out.println("boh");
         } else {
             for (Adressa a : adreces) {
                 System.out.println(a);
@@ -47,4 +47,3 @@ public class RecopilaAdreces {
         return null;
     }
 }
-

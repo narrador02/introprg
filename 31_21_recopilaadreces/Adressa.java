@@ -7,15 +7,15 @@ public class Adressa implements Comparable<Adressa> {
     private String identificador;
     private String domini;
 
-    private Adressa(String identificador, String domini) {
+    public Adressa(String identificador, String domini) {
         this.identificador = identificador;
         this.domini = domini;
     }
-    
+
     public String getIdentificador() {
         return identificador;
     }
-    
+
     public String getDomini() {
         return domini;
     }
@@ -42,9 +42,14 @@ public class Adressa implements Comparable<Adressa> {
     }
 
     public static Adressa fromString(String text) {
-        if (!esValida(text)) throw new IllegalArgumentException("boh");
+        if (!esValida(text)) throw new IllegalArgumentException("Adreça no vàlida");
         int pos = text.indexOf('@');
         return new Adressa(text.substring(0, pos), text.substring(pos + 1));
+    }
+
+    @Override
+    public int compareTo(Adressa altra) {
+        return this.toString().compareTo(altra.toString());
     }
 
     @Override
@@ -56,17 +61,11 @@ public class Adressa implements Comparable<Adressa> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Adressa)) return false;
-        return toString().equals(o.toString());
+        return this.toString().equals(o.toString());
     }
 
     @Override
     public int hashCode() {
-        return toString().hashCode();
-    }
-
-    @Override
-    public int compareTo(Adressa altra) {
-        return this.toString().compareTo(altra.toString());
+        return this.toString().hashCode();
     }
 }
-

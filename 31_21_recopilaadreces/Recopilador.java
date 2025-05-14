@@ -2,7 +2,7 @@
  * Procesa textos para extraer correos válidos.
  * Asocia cada correo con los archivos donde aparece.
  * Devuelve las direcciones y archivos ordenados.
-*/
+ */
 import java.util.*;
 
 public class Recopilador {
@@ -31,7 +31,7 @@ public class Recopilador {
         return trobades.size();
     }
 
-    public List<Adressa> getAdrecess() {
+    public List<Adressa> getAdreces() {
         return new ArrayList<>(adreces.keySet());
     }
 
