@@ -42,7 +42,28 @@ public class Botiga {
         }
         return resultats;
     }
+    
+    public Vi elimina(String ref) {
+        if (ref == null) {
+            throw new IllegalArgumentException("La referència no pot ser null");
+        }
 
+        String refVi = UtilString.normalitzaString(ref);
+
+        for (int i = 0; i < vins.size(); i++) {
+            Vi vi = vins.get(i);
+            if (vi.getRef().equalsIgnoreCase(refVi)) {
+                if (vi.getEstoc() > 0) {
+                    throw new IllegalArgumentException("El vi a eliminar no pot tenir estoc");
+                }
+                vins.remove(i);
+                return vi;
+            }
+        }
+
+        throw new IllegalArgumentException("La instància a eliminar ha d'estar present");
+    }
+    
     private boolean coincideixAmbPlantilla(Vi vi, Vi plantilla) {
         if (!UtilString.esPlantillaDeText(plantilla.getRef(), vi.getRef())) return false;
         if (!UtilString.esPlantillaDeText(plantilla.getNom(), vi.getNom())) return false;
