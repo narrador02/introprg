@@ -22,39 +22,17 @@ public class Vi {
         this.tipus = tipus;
         this.collita = collita;
     }
-    
-    public void setRef(String ref) {
-    this.ref = ref;
+
+    public boolean esValid() {
+        if (ref == null || ref.trim().isEmpty()) return false;
+        if (nom == null || nom.trim().isEmpty()) return false;
+        if (origen == null || origen.trim().isEmpty()) return false;
+        if (tipus == null || tipus.trim().isEmpty()) return false;
+        if (collita == null || collita.trim().isEmpty()) return false;
+        if (preu < 0 || estoc < 0) return false;
+        return true;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public void setPreu(int preu) {
-        this.preu = preu;
-    }
-
-    public void setEstoc(int estoc) {
-        this.estoc = estoc;
-    }
-
-    public void setLloc(String lloc) {
-        this.lloc = lloc;
-    }
-
-    public void setOrigen(String origen) {
-        this.origen = origen;
-    }
-
-    public void setTipus(String tipus) {
-        this.tipus = tipus;
-    }
-
-    public void setCollita(String collita) {
-        this.collita = collita;
-    }
-    
     public String getRef() {
         return ref;
     }
@@ -87,8 +65,21 @@ public class Vi {
         return collita;
     }
 
+    public void setPreu(int preu) {
+        this.preu = preu;
+    }
+
+    public void setEstoc(int estoc) {
+        this.estoc = estoc;
+    }
+
     @Override
     public String toString() {
         return ref + ";" + nom + ";" + preu + ";" + estoc + ";" + lloc + ";" + origen + ";" + tipus + ";" + collita;
+    }
+
+    public static String normalitzaString(String text) {
+        if (text == null) return "";
+        return text.trim().toLowerCase();
     }
 }
