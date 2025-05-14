@@ -118,6 +118,19 @@ public class Vi {
         return new Vi(ref, nom, preu, estoc, lloc, origen, tipus, collita);
     }
     
+    public String[] aArrayString() {
+        return new String[] {
+            ref,
+            nom,
+            String.valueOf(preu),
+            String.valueOf(estoc),
+            lloc,
+            origen,
+            tipus,
+            collita
+        };
+    }
+    
     public static String normalitzaString(String text) {
         if (text == null) return "";
         return text.trim().toLowerCase();
