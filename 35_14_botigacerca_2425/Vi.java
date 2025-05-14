@@ -22,7 +22,39 @@ public class Vi {
         this.tipus = tipus;
         this.collita = collita;
     }
+    
+    public void setRef(String ref) {
+    this.ref = ref;
+    }
 
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public void setPreu(int preu) {
+        this.preu = preu;
+    }
+
+    public void setEstoc(int estoc) {
+        this.estoc = estoc;
+    }
+
+    public void setLloc(String lloc) {
+        this.lloc = lloc;
+    }
+
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
+
+    public void setTipus(String tipus) {
+        this.tipus = tipus;
+    }
+
+    public void setCollita(String collita) {
+        this.collita = collita;
+    }
+    
     public String getRef() {
         return ref;
     }
