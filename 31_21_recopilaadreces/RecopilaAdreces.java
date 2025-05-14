@@ -33,8 +33,18 @@ public class RecopilaAdreces {
     }
 
     public static String llegeixFitxer(String nomFitxer) {
+        File fitxer = new File(nomFitxer);
+        if (!fitxer.exists()) {
+            System.out.println("No s'ha trobat el fitxer " + nomFitxer + "\n");
+            return null;
+        }
+        if (!fitxer.isFile() || !fitxer.canRead()) {
+            System.out.println("No s'ha pogut llegir el fitxer " + nomFitxer + "\n");
+            return null;
+        }
+
         try {
-            BufferedReader br = new BufferedReader(new FileReader(nomFitxer));
+            BufferedReader br = new BufferedReader(new FileReader(fitxer));
             StringBuilder sb = new StringBuilder();
             String linia;
             while ((linia = br.readLine()) != null) {
@@ -42,11 +52,9 @@ public class RecopilaAdreces {
             }
             br.close();
             return sb.toString();
-        } catch (FileNotFoundException e) {
-            System.out.println("No s'ha trobat el fitxer " + nomFitxer);
         } catch (IOException e) {
-            System.out.println("No s'ha trobat el fitxer " + nomFitxer);
+            System.out.println("No s'ha pogut llegir el fitxer " + nomFitxer + "\n");
+            return null;
         }
-        return null;
     }
 }
