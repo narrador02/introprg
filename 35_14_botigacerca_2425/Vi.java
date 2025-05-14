@@ -2,42 +2,61 @@
  * Programa que crea y verifica los vinos para tenerlos controlados.
  */
 public class Vi {
+    private String ref;
     private String nom;
-    private String doOrigen;
+    private int preu;
+    private int estoc;
+    private String lloc;
+    private String origen;
     private String tipus;
+    private String collita;
 
-    public Vi(String nom, String doOrigen, String tipus) {
+    public Vi(String ref, String nom, int preu, int estoc, String lloc,
+              String origen, String tipus, String collita) {
+        this.ref = ref;
         this.nom = nom;
-        this.doOrigen = doOrigen;
+        this.preu = preu;
+        this.estoc = estoc;
+        this.lloc = lloc;
+        this.origen = origen;
         this.tipus = tipus;
+        this.collita = collita;
+    }
+
+    public String getRef() {
+        return ref;
     }
 
     public String getNom() {
         return nom;
     }
 
-    public String getDoOrigen() {
-        return doOrigen;
+    public int getPreu() {
+        return preu;
+    }
+
+    public int getEstoc() {
+        return estoc;
+    }
+
+    public String getLloc() {
+        return lloc;
+    }
+
+    public String getOrigen() {
+        return origen;
     }
 
     public String getTipus() {
         return tipus;
     }
 
+    public String getCollita() {
+        return collita;
+    }
+
     @Override
     public String toString() {
-        return nom + " (" + doOrigen + ") - " + tipus;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (!(obj instanceof Vi)) return false;
-        Vi v = (Vi) obj;
-        return nom.equals(v.nom) && doOrigen.equals(v.doOrigen) && tipus.equals(v.tipus);
-    }
-
-    @Override
-    public int hashCode() {
-        return nom.hashCode() + doOrigen.hashCode() + tipus.hashCode();
+        return ref + ";" + nom + ";" + preu + ";" + estoc + ";" + lloc + ";" + origen + ";" + tipus + ";" + collita;
     }
 }

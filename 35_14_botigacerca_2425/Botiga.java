@@ -16,7 +16,7 @@ public class Botiga {
         List<Vi> resultats = new ArrayList<>();
         for (Vi vi : vins) {
             if (UtilString.esPlantillaDeText(plantilla.getNom(), vi.getNom()) &&
-                UtilString.esPlantillaDeText(plantilla.getDoOrigen(), vi.getDoOrigen()) &&
+                UtilString.esPlantillaDeText(plantilla.getOrigen(), vi.getOrigen()) &&
                 UtilString.esPlantillaDeText(plantilla.getTipus(), vi.getTipus())) {
                 resultats.add(vi);
             }
