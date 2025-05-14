@@ -8,8 +8,9 @@ import java.util.List;
 public class Botiga {
     private List<Vi> vins = new ArrayList<>();
 
-    public void afegeix(Vi vi) {
+    public Vi afegeix(Vi vi) {
         vins.add(vi);
+        return vi;
     }
 
     public Vi cerca(String ref) throws IllegalArgumentException {
