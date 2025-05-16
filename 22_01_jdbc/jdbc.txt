@@ -1,0 +1,14 @@
+1. És un sistema que ens permet accedir des d'una base de dades relacional, a un programa fet en Java.
+    Es cierto, JDBC es una API que hace posible la interacción entre programas de Java y bases de datos.
+    
+2. Per a poder accedir a un SGBD concret, ens caldrà una implementació adequada del JDBC, doncs JDBC per si sol només defineix interfaces i poc més.
+    Es cierto, por sí solo no podemos hacer prácticamente nada, dependemos de una implementación concreta y adecuada para nuestro SGBD. Esta implementación es el controlador o driver.
+    
+3. Si els nostres programes fan servir les interfícies definides per JDBC en comptes de les classes concretes dels drivers, hauria de ser raonablement fàcil canviar de SGBD sense haver de modificar els nostres programes.
+    Es cierto, si el programa utiliza las interfaces definidas por JDBC en lugar de las clases concretas de los drivers, debería ser fácil cambiar a un SGBD diferente sin modificar el programa.
+
+4. Donada una implementació concreta de JDBC, coneguda com a driver, podríem accedir a diverses fonts de dades, no només bases de dades.
+    Es cierto, el uso de un driver es imprescindible para poder acceder a bases de datos.
+    
+5. Amb el driver adequat, el nostre programa hauria de poder accedir a un full de càlcul fent servir JDBC.
+    Es cierto, si tu sistema está bien configurado el JDBC puede acceder a una hoja de cálculo como si fuera una base de datos y hacer cualquier operación CRUD en la misma.
